@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flores</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo" >FloraBella</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/flower.png"  class="menu-icono" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Flores</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="btn-1">Login</a>
+        </div>
+        <div class="header-content container">
+            <div class="header-1">
+                <img src="image/sunflower.jpg" alt="">
+                <a href="#" class="btn-2">Ver ahora</a>
+            </div>
+            <div class="header-2">
+                <h1>Las más hermosas <br> Flores</h1>
+                <img src="image/flower-icon.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="flowers container">
+
+        <h2>Flores populares</h2>
+        <hr>
+
+        <div class="box-container-1">
+
+            <div class="box-1">
+                <div class="content">
+                    <img src="image/roses.jpg" alt="">
+                    <h3>Rosas</h3>
+                    <p>
+                        Las rosas son conocidas por su belleza y fragancia.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <div class="content">
+                    <img src="image/tulips.jpg" alt="">
+                    <h3>Tulipanes</h3>
+                    <p>
+                        Los tulipanes son flores elegantes y coloridas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <div class="content">
+                    <img src="image/daisies.jpg" alt="">
+                    <h3>Margaritas</h3>
+                    <p>
+                        Las margaritas son flores simples y encantadoras.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-1">
+                <div class="content">
+                    <img src="image/orchids.jpg" alt="">
+                    <h3>Orquídeas</h3>
+                    <p>
+                        Las orquídeas son exóticas y fascinantes.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more" id="load-more-1">Cargar Más</div>
+
+    </section>
+
+    <section class="flowers container">
+
+        <h2>Flores de temporada</h2>
+        <hr>
+
+        <div class="box-container-2">
+
+            <div class="box-2">
+                <div class="content">
+                    <img src="image/lilies.jpg" alt="">
+                    <h3>Lirios</h3>
+                    <p>
+                        Los lirios son flores majestuosas y elegantes.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <div class="content">
+                    <img src="image/sunflowers.jpg" alt="">
+                    <h3>Girasoles</h3>
+                    <p>
+                        Los girasoles representan la energía y la vitalidad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <div class="content">
+                    <img src="image/lavender.jpg" alt="">
+                    <h3>Lavanda</h3>
+                    <p>
+                        La lavanda es conocida por su aroma relajante.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="box-2">
+                <div class="content">
+                    <img src="image/cherry_blossoms.jpg" alt="">
+                    <h3>Cerezos en Flor</h3>
+                    <p>
+                        Los cerezos en flor son una vista espectacular en primavera.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more" id="load-more-2">Cargar Más</div>
+
+    </section>
+
+
+    <section class="flowers container">
+
+        <h2>Flores tropicales</h2>
+        <hr>
+
+        <div class="box-container-3">
+
+            <div class="box-3">
+                <div class="content">
+                    <img src="image/hawaiian_flowers.jpg" alt="">
+                    <h3>Flores Hawaianas</h3>
+                    <p>
+                        Las flores hawaianas son vibrantes y exóticas.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-3">
+                <div class="content">
+                    <img src="image/plumeria.jpg" alt="">
+                    <h3>Plumeria</h3>
+                    <p>
+                        La plumeria es conocida por su aroma dulce y delicado.
+                    </p>
+                </div>
+            </div>
+
+            <div class="box-3">
+                <div class="content">
+                    <img src="image/bird_of_paradise.jpg" alt="">
+                    <h3>Ave del Paraíso</h3>
+                    <p>
+                        La ave del paraíso es una flor impresionante con formas únicas.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="box-3">
+                <div class="content">
+                    <img src="image/hibiscus.jpg" alt="">
+                    <h3>Hibisco</h3>
+                    <p>
+                        El hibisco es una flor colorida y tropical.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="load-more" id="load-more-3">Cargar Más</div>
+
+    </section>
+
+    <footer class="footer container">
+
+        <h3>FloraBella</h3>
+
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Flores</a></li>
+            <li><a href="#">Contacto</a></li
+
+        </ul>
+
+    </footer>
+    <script>
+        let loadMoreBtn1 = document.querySelector('#load-more-1');
+let currentItem1 = 4;
+
+loadMoreBtn1.onclick = () => {
+    let boxes = [...document.querySelectorAll(
+        '.box-container-1 .box-1'
+    )];
+    for(var i = currentItem1; i < currentItem1 + 4; i++) {
+        boxes[i].style.display = 'inline-block';
+    }
+    currentItem1 += 4;
+    if(currentItem1 >= boxes.length) {
+    loadMoreBtn1.style.display = 'none'
+    }
+}
+
+let loadMoreBtn2 = document.querySelector('#load-more-2');
+let currentItem2 = 4;
+
+loadMoreBtn2.onclick = () => {
+    let boxes = [...document.querySelectorAll(
+        '.box-container-2 .box-2'
+    )];
+    for(var i = currentItem2; i < currentItem2 + 4; i++) {
+        boxes[i].style.display = 'inline-block';
+    }
+    currentItem2 += 4;
+    if(currentItem2 >= boxes.length) {
+    loadMoreBtn2.style.display = 'none'
+    }
+}
+
+let loadMoreBtn3 = document.querySelector('#load-more-3');
+let currentItem3 = 4;
+
+loadMoreBtn3.onclick = () => {
+    let boxes = [...document.querySelectorAll(
+        '.box-container-3 .box-3'
+    )];
+    for(var i = currentItem3; i < currentItem3 + 4; i++) {
+        boxes[i].style.display = 'inline-block';
+    }
+    currentItem3 += 4;
+    if(currentItem3 >= boxes.length) {
+    loadMoreBtn3.style.display = 'none'
+    }
+}
+
+    </script>
+
+
+    
+
+   
+</body>
+</html>
